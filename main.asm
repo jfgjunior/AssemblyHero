@@ -15,6 +15,8 @@ main PROC
 
 	mov eax, ecx
 
+	call DumpRegs
+
 	exit
 main ENDP
 
